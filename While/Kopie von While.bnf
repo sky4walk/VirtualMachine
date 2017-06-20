@@ -1,0 +1,14 @@
+Programm->VarDefBlock,ProgrammBlock
+
+VarDefBlock->StoreType,Name,';'
+VarDefBlock->StoreType,Name,'=',Value,';'
+VarDefBlock->StoreType,Name,'[',IntValue,']',';'
+VarDefBlock->VarDefBlock,VarDefBlock
+
+ProgrammBlock->StoreType,Name,'(',Param,')','{',FuncIntern,Retval'}'
+ProgrammBlock->StoreType,Name,'(',')','{',FuncIntern,Retval,'}'
+ProgrammBlock->ProgrammBlock,ProgrammBlock
+
+Param->Param,',',Param
+Param->StoreType,Name
+Param->StoreType,Name

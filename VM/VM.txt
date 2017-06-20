@@ -1,0 +1,32 @@
+Virtuelle Maschine
+------------------
+
+VM ist eine virtuelle Maschine, die mit diversen Befehlen auskommt, wie eine CPU.
+Sie enthält keinerlei Register. Es gibt auch keine direkte EIngabe von Zahlen. Die 
+Befehle arbeiten nur auf Label-Basis.
+
+
+Befehlsübersicht:
+JMP(<Lable>)
+CLR(<Lable>)
+INC(<Lable>)
+DEC(<Lable>)
+BNZ(<Lable>,<Lable>)
+BZ(<Lable>,<Lable>)
+CPY(<Lable>,<Lable>)
+ADD(<Lable>,<Lable>,<Lable>)
+SUB(<Lable>,<Lable>,<Lable>)
+EQU(<Lable>,<Lable>,<Lable>)
+NEQ(<Lable>,<Lable>,<Lable>)
+GT(<Lable>,<Lable>,<Lable>)
+GTE(<Lable>,<Lable>,<Lable>)
+MUL(<Lable>,<Lable>,<Lable>)
+DIV(<Lable>,<Lable>,<Lable>)
+LD(<Lable>,<Lable>,<Lable>)
+ST(<Lable>,<Lable>,<Lable>)
+POP(<Lable>,<Lable>,<Lable>)
+PSH(<Lable>,<Lable>,<Lable>)
+JSR(<Lable>,<Lable>,<Lable>,<Lable>)
+RET(<Lable>,<Lable>,<Lable>)
+NAND(<Label>,<Label>,<Label>)
+OUT(<Lable>)
